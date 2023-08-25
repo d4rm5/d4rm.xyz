@@ -2,18 +2,18 @@ import type { SiteConfig } from "@/data/types";
 
 export const siteConfig: SiteConfig = {
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
-	author: "Chris Williams",
+	author: "d4rm_",
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
-	title: "Astro Theme Cactus",
+	title: "d4rm.xyz",
 	// Meta property used as the default description meta property
 	description: "An opinionated starter theme for Astro",
 	// HTML lang property, found in src/layouts/Base.astro L:18
-	lang: "en-GB",
+	lang: "es-AR",
 	// Meta property, found in src/components/BaseHead.astro L:42
-	ogLocale: "en_GB",
+	ogLocale: "es_AR",
 	// Date.prototype.toLocaleDateString() parameters, found in src/utils/date.ts.
 	date: {
-		locale: "en-GB",
+		locale: "es-AR",
 		options: {
 			day: "numeric",
 			month: "short",
@@ -35,5 +35,9 @@ export const menuLinks: Array<{ title: string; path: string }> = [
 	{
 		title: "Blog",
 		path: "/posts/",
+	},
+	{
+		title: "Configs",
+		path: "/configs/",
 	},
 ];
