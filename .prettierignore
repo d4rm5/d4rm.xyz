@@ -30,3 +30,7 @@ coverage
 
 pnpm-lock.yaml
 dist
+
+# exception
+**/about.astro
+**/index.astro

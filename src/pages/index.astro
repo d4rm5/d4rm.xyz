@@ -17,7 +17,7 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 	},
 	{
 		title: "Libraries and frameworks",
-		desc: "React, React Native, Expo, Redux Toolkit,",
+		desc: "React, React Native, Expo, Redux Toolkit.",
 		href: "https://docs.astro.build/en/guides/assets/",
 	},
 	{
@@ -30,8 +30,8 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="title mb-6">Hi, Dante here! 👋🏻</h1>
-		<h2 class="mb-5 font-bold">Student & computing fanatic</h2>
+		<h1 class="title mb-6">Hi, Dantesito here! 👋🏻</h1>
+		<h2 class="mb-5 font-bold">Student, developer & web3 enthusiast ✨</h2>
 		<p class="mb-4">
 			✨ I'm a student of programming from Argentina <br />
 			🧠 Strongly interested in everything related to computing, cryptography and technology <br />
@@ -40,7 +40,7 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 		<SocialList />
 	</section>
 	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Posts</h2>
+		<h2 class="title mb-4 text-xl">Posts 📁</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			{
 				allPostsByDate.map((p) => (
@@ -52,7 +52,7 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 		</ul>
 	</section>
 	<section class="mt-16">
-		<h2 class="title mb-4 text-xl">Technologies</h2>
+		<h2 class="title mb-4 text-xl">Technologies and tools 🧑‍💻</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			{
 				cactusTech.map(({ href, title, desc }) => (
@@ -64,8 +64,8 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 							class="cactus-link inline-block"
 						>
 							{title}
-						</a>
-						:<p class="inline-block sm:mt-2">{desc}</p>
+						</a>:
+						<p class="inline-block sm:mt-2">{desc}</p>
 					</li>
 				))
 			}

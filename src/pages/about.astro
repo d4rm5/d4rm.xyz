@@ -7,40 +7,64 @@ const meta = {
 	title: "About",
 	description: "I'm Dante Martínez (d4rm_ for my internet folks).",
 };
+
+const projectList: Array<{ title: string; desc: string; href: string }> = [
+	{
+		title: "[REDACTED]",
+		desc: "I can't reveal it, but I'm working on a mobile app using React Native, Expo and a few more libraries.",
+		href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+	},
+	{
+		title: "d4rm.xyz",
+		desc: "this website! built with Astro and Astro Cactus template.",
+		href: "https://github.com/d4rm5/d4rm.xyz",
+	},
+	{
+		title: "journal-d4rm",
+		desc: "a note taking app built with React, Redux Toolkit, Material UI and Firebase for the React course from Fernando Herrera.",
+		href: "https://github.com/d4rm5/journal-d4rm",
+	},
+	{
+		title: "IMDD",
+		desc: "a movie review website built with PHP, Bootstrap 5 and MySQL for a scholar project.",
+		href: "https://github.com/d4rm5/IMDD",
+	},
+	{
+		title: "Punto de interés",
+		desc: "podcast interview series that I created, conducted and produced in the winter of 2021.",
+		href: "https://pod.link/puntodeinteres",
+	},
+];
 ---
 
 <PageLayout meta={meta}>
 	<div class="space-y-6">
 		<h1 class="title">About</h1>
 		<p>
-			I'm Dante Martínez (d4rm_ for my internet folks || dantesito.eth for my ethereans folks.).
+			I am a young programmer very hungry to keep improving my skills and grow professionally. My
+			goal is to be part of a work space where I can develop my professional skills, and that
+			constantly demands the maximum use of my abilities (and maybe sometimes a little more). <br />
+
+			I am specializing in web development, mobile and web3.
 		</p>
-		<div class="flex justify-center">
-			<Image
-				src={aboutImg}
-				alt="A cartoon cactus looking at the 'Astro.build' logo"
-				loading="eager"
-				fetchpriority="high"
-			/>
-		</div>
-		<p>Here are my some of my awesome built in features:</p>
+		<p>Here some of my completed projects (not all are about software) ↓</p>
+
 		<ul class="list-inside list-disc">
-			<li>I'm ultra fast as I'm a static site</li>
-			<li>I'm fully responsive</li>
-			<li>I come with a light and dark mode</li>
-			<li>I'm easy to customise and add additional content</li>
-			<li>I have Tailwind CSS styling</li>
-			<li>Shiki code syntax highlighting</li>
-			<li>Satori for auto generating OG images for blog posts</li>
+			{
+				projectList.map(({ href, title, desc }) => (
+					<li>
+						<a
+							href={href}
+							target="_blank"
+							rel="noopener noreferrer"
+							class="cactus-link inline-block"
+						>
+							{title}
+						</a>:
+						<p class="inline sm:mt-2">{desc}</p>
+					</li>
+				))
+			}
 		</ul>
-		<p>
-			Clone or fork my <a
-				class="cactus-link inline-block"
-				href="https://github.com/chrismwilliams/astro-cactus"
-				target="_blank"
-				rel="noopener noreferrer"
-				aria-label="github repository">repo</a
-			> if you like me!
-		</p>
 	</div>
 </PageLayout>

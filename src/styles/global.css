@@ -6,21 +6,21 @@
 	:root {
 		color-scheme: light;
 		--theme-bg: 250 250 250;
-		--theme-link: 86 124 119;
-		--theme-text: 34 39 42;
-		--theme-accent: 204 42 66;
-		--theme-accent-2: 17 17 17;
-		--theme-quote: 204 42 66;
+		--theme-link: 30 102 245;
+		--theme-text: 76 79 105;
+		--theme-accent: 4 165 229;
+		--theme-accent-2: 92 95 119;
+		--theme-quote: 32 159 181;
 	}
 
 	:root.dark {
 		color-scheme: dark;
-		--theme-bg: 29 31 33;
-		--theme-link: 212 128 170;
-		--theme-text: 201 202 204;
-		--theme-accent: 43 188 137;
-		--theme-accent-2: 238 238 238;
-		--theme-quote: 204 255 182;
+		--theme-bg: 30 30 46; /* Base color from the catppuccino palette */
+		--theme-link: 243 139 168; /* Red from the catppuccino palette */
+		--theme-text: 205 214 244; /* Text color from the catppuccino palette */
+		--theme-accent: 245 194 231; /* Pink from the catppuccino palette */
+		--theme-accent-2: 238 238 238; /* Use a light gray from the catppuccino palette */
+		--theme-quote: 235 160 172; /* A light pink from the catppuccino palette */
 	}
 
 	html {

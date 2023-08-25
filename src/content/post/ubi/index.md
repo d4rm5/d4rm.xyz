@@ -5,18 +5,7 @@ description: "Hello world!!! This is an example blog post showcasing some of the
 coverImage:
   src: "./cover.png"
   alt: "Introducing UBI"
-tag:
-  [
-    "ubi",
-    "universal basic income",
-    "renta universal basica",
-    "ingreso basico universal",
-    "ethereum",
-    "santi siri",
-    "democracy earth",
-    "kleros",
-    "d4rm_",
-  ]
+tags: ["ubi", "universal basic income", "ethereum", "democracy earth", "kleros"]
 ---
 
 # UBI 💧: como obtener un salario por existir
