@@ -30,13 +30,14 @@ const url = new URL(Astro.request.url);
 			class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
 			aria-current={url.pathname === "/" ? "page" : false}
 		>
-			<Image
-				src="/src/assets/waving.png"
-				width={272}
-				height={272}
-				alt="Memoji"
-				class="mr-6 h-10 w-10 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-20"
-			/>
+			<!-- 	<Image
+				src="/public/android-chrome-512x512.png"
+				width={512}
+				height={512}
+				alt="Photo"
+				class="me-3 h-10 w-10 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-20"
+			/> -->
+
 			<span class="text-xl font-bold sm:text-2xl">d4rm.xyz</span>
 		</a>
 		<nav
