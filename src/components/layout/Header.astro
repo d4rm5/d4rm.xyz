@@ -3,8 +3,7 @@ import ThemeToggle from "../ThemeToggle.astro";
 import Search from "../Search.astro";
 import { menuLinks } from "@/site-config";
 import { Image } from "astro:assets";
-import "/home/d4rm/workbench/personal/d4rm.xyz/src/assets/photo.png";
-
+import danteImage from "~/assets/images/dante.png";
 const url = new URL(Astro.request.url);
 ---
 
@@ -32,7 +31,7 @@ const url = new URL(Astro.request.url);
 			aria-current={url.pathname === "/" ? "page" : false}
 		>
 			<Image
-				src="/assets/photo.png"
+				src={danteImage}
 				width={512}
 				height={512}
 				alt="Photo"
