@@ -9,21 +9,31 @@ const MAX_POSTS = 10;
 const allPosts = await getCollection("post");
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
-const cactusTech: Array<{ title: string; desc: string; href: string }> = [
+const projectList: Array<{ title: string; desc: string; href: string }> = [
 	{
-		title: "Languages",
-		desc: "JavaScript, TypeScript, PHP.",
-		href: "https://astro.build",
+		title: "[REDACTED]",
+		desc: "I can't reveal it, but I'm working on a mobile app using React Native, Expo and a few more libraries.",
+		href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", 
 	},
 	{
-		title: "Libraries and frameworks",
-		desc: "React, React Native, Expo, Redux Toolkit.",
-		href: "https://docs.astro.build/en/guides/assets/",
+		title: "d4rm.xyz",
+		desc: "this website! built with Astro and Astro Cactus template.",
+		href: "https://github.com/d4rm5/d4rm.xyz",
 	},
 	{
-		title: "Project management and work dynamics",
-		desc: "Git, Notion, Bash.",
-		href: "https://tailwindcss.com",
+		title: "journal-d4rm",
+		desc: "a note taking app built with React, Redux Toolkit, Material UI and Firebase for the React course from Fernando Herrera.",
+		href: "https://github.com/d4rm5/journal-d4rm",
+	},
+	{
+		title: "IMDD",
+		desc: "a movie review website built with PHP, Bootstrap 5 and MySQL for a scholar project.",
+		href: "https://github.com/d4rm5/IMDD",
+	},
+	{
+		title: "Punto de interés",
+		desc: "podcast interview series that I created, conducted and produced in the winter of 2021.",
+		href: "https://pod.link/puntodeinteres",
 	},
 ];
 ---
@@ -32,30 +42,21 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 	<section>
 		<h1 class="title mb-6">Hi, Dantesito here! 👋🏻</h1>
 		<h2 class="mb-5 font-bold">Student, developer & web3 passionate ✨</h2>
-		<p class="mb-4">
-			✨ I'm a student of programming from Argentina <br />
-			🧠 Strongly interested in everything related to computing, cryptography and technology <br />
-			💻 Always learning, currently focused on full stack development and Ethereum smart contract programming
-		</p>
-		<SocialList />
+		<div class="mb-4">
+			<p>
+				Overall, I am passionate about tech and computing (my father's fault for sitting me in front of a computer when I was 3 years old). In the last few years, I have been strongly interested in programming, cryptography, and all the topics related to the Ethereum ecosystem, to which I would like to contribute as an engineer in the future.
+			</p> <br/>
+			<p>
+				Currently, I'm finishing my technical high school education in the field of programming, and next year I am going to start studying systems engineering at UNICEN with the expectation of nurturing myself to contribute to the world in the future.
+			</p>
+		</div>
 	</section>
-	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Posts 📁</h2>
+	<SocialList/>
+	<section class="mt-8">
+		<h2 class="title mb-4 text-xl">Here some of my projects ↓</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			{
-				allPostsByDate.map((p) => (
-					<li class="flex flex-col gap-x-2 sm:flex-row">
-						<PostPreview post={p} />
-					</li>
-				))
-			}
-		</ul>
-	</section>
-	<section class="mt-16">
-		<h2 class="title mb-4 text-xl">Technologies and tools 🧑‍💻</h2>
-		<ul class="space-y-4 sm:space-y-2">
-			{
-				cactusTech.map(({ href, title, desc }) => (
+				projectList.map(({ href, title, desc }) => (
 					<li>
 						<a
 							href={href}
@@ -65,10 +66,25 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 						>
 							{title}
 						</a>:
-						<p class="inline-block sm:mt-2">{desc}</p>
+						<p class="inline sm:mt-2">{desc}</p>
 					</li>
 				))
 			}
 		</ul>
 	</section>
+	
+	<section aria-label="Blog post list" class="mt-16">
+		<h2 class="title mb-4 text-xl">Articles 📁</h2>
+		<ul class="space-y-4 sm:space-y-2">
+			{
+				allPostsByDate.map((p) => (
+					<li class="flex flex-col gap-x-2 sm:flex-row">
+						<PostPreview post={p} />
+					</li>
+				))
+			}
+		</ul>
+		
+	</section>
+	
 </PageLayout>
