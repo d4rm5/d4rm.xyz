@@ -6,7 +6,7 @@ export const siteConfig: SiteConfig = {
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
 	title: "d4rm.xyz",
 	// Meta property used as the default description meta property
-	description: "An opinionated starter theme for Astro",
+	description: "d4rm.xyz website",
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: "es-AR",
 	// Meta property, found in src/components/BaseHead.astro L:42
