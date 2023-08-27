@@ -1,6 +1,6 @@
 # d4rm.xyz
 
-Personal website built with [↗Astro Theme Cactus](https://github.com/chrismwilliams/astro-theme-cactus) and [↗Catppuccin Latte](https://github.com/catppuccin/catppuccin) / Mocha color palette.
+Personal website built with [↗Astro Theme Cactus](https://github.com/chrismwilliams/astro-theme-cactus) and [↗Catppuccin](https://github.com/catppuccin/catppuccin) Latte & Mocha color palettes.
 
 ## Commands
 
