@@ -4,7 +4,7 @@ publishDate: "27 Jan 2022"
 description: "El día de la fecha se lanzó $RON, el token nativo de Ronin Network, la sidechain que alberga las transacciones del exitoso juego Axie Infinity..."
 coverImage:
   src: "./cover.png"
-  alt: "Fotografía de silueta de hombre tomada por Chris Yang (@chrisyangchrisfilm)"
+  alt: "Ilustración del token Ronin con un pajarito"
 tags: ["$RON", "descentralizacion", "ronin network", "sky mavis", "axie infinity"]
 ---
 
