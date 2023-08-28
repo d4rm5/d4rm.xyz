@@ -23,9 +23,13 @@ Stremio es un ejemplo de como se puede llevar una tecnología descentralizada al
 
 Hace unos días, leí un tweet de un famoso empresario del sector fintech que afirmaba que su terminal POS no ofrecía pagos en criptomonedas porque "nadie lo pide". Y no solo tiene razón, sino que es comprensible que sea así. Si las criptomonedas quieren convertirse en algo masivo, su experiencia de usuario (UX) debe evolucionar al punto en que la gente ni siquiera las solicite, sino que las empresas encuentren conveniente adoptarlas sin que el usuario se entere.
 
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Nadie lo pide...</p>&mdash; Pierpaolo Barbieri (@pbarbieri) <a href="https://twitter.com/pbarbieri/status/1682430477641175040?ref_src=twsrc%5Etfw">July 21, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 El usuario promedio no está familiarizado con términos como "Transferencias 3.0", "COELSA" ni siquiera sabe qué hace el BCRA (Banco Central de la República Argentina). Lo que realmente le importa es que cuando escanea el QR de MercadoPago con su Cuenta DNI, puede realizar el pago sin complicaciones y se siente contento con la experiencia.
 
 Como dice Marian, quizás cuesta aceptarlo para el usuario hardcore de crypto, pero pagar con estas apps centralizadas es más facil. No creo que vaya a ser así para siempre, pero hay que seguir mejorando.
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Es asi como dice pier, y nosotros como parte del ecosistema tenemos dos opciones.<br><br>1. Pelearnos con la realidad y mofarnos del tweet.<br>2. Reconocer que es asi y Laburar para bajar barreras de entrada.<br><br>Payments es la ultima frontera para crypto, hay muchas cosas por hacer antes <a href="https://t.co/UXU1FZp4Re">https://t.co/UXU1FZp4Re</a></p>&mdash; Mariano 🦇🔊 - ⭐⭐⭐ (@Mariandipietra) <a href="https://twitter.com/Mariandipietra/status/1682712462372610049?ref_src=twsrc%5Etfw">July 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Concluyo que las mejoras de UX son vitales para la adopción masiva de la tecnología, especialmente cuando hablamos de algo descentralizado. Nos solemos perder mucho en los ideales y bondades del producto, olvidandonos un poco del usuario al que poco le puede interesar lo que tenemos para contarle, a pesar de que esto lo beneficie directamente.
 

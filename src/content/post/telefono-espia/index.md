@@ -14,7 +14,7 @@ Seguramente, alguna vez te pasó que estabas hablando con un familiar sobre alg�
 
 Primero, quiero aclarar que este artículo está totalmente basado en un hilo de Twitter del usuario [@RobertGReeve](https://twitter.com/RobertGReeve), trabajador del área IT experto en privacidad:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m back from a week at my mom&#39;s house and now I&#39;m getting ads for her toothpaste brand, the brand I&#39;ve been putting in my mouth for a week. We never talked about this brand or googled it or anything like that.<br><br>As a privacy tech worker, let me explain why this is happening. 🧵</p>&mdash; Robert G. Reeve 🔜 PAX West (@RobertGReeve) <a href="https://twitter.com/RobertGReeve/status/1397032784703655938?ref_src=twsrc%5Etfw">May 25, 2021</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m back from a week at my mom&#39;s house and now I&#39;m getting ads for her toothpaste brand, the brand I&#39;ve been putting in my mouth for a week. We never talked about this brand or googled it or anything like that.<br><br>As a privacy tech worker, let me explain why this is happening. 🧵</p>&mdash; Robert G. Reeve 🔜 PAX West (@RobertGReeve) <a href="https://twitter.com/RobertGReeve/status/1397032784703655938?ref_src=twsrc%5Etfw">May 25, 2021</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
