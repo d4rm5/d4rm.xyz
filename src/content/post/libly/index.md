@@ -4,7 +4,7 @@ publishDate: "7 Nov 2023"
 description: "El proyecto con el que me voy a recibir de técnico secundario en programación"
 coverImage:
   src: "./cover.png"
-  alt: "Moto E2 y Ledger Nano S"
+  alt: "Libly: sistema de carnet digital. Logo de Libly."
 tags: ["libly", "proyecto tecnológico", "react native", "go", "educación"]
 ---
 
