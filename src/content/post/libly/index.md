@@ -1,7 +1,7 @@
 ---
 title: "Libly: sistema de carnet digital"
 publishDate: "7 Nov 2023"
-description: "El proyecto con el que me recibí de técnico secundario en programación"
+description: "El proyecto con el que me voy a recibir de técnico secundario en programación"
 coverImage:
   src: "./cover.png"
   alt: "Moto E2 y Ledger Nano S"
