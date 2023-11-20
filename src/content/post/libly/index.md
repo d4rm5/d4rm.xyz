@@ -2,11 +2,11 @@
 title: "Libly: sistema de carnet digital"
 publishDate: "7 Nov 2023"
 description: "El proyecto con el que me voy a recibir de técnico secundario en programación"
-ogImage: "./cover.png"
 coverImage:
   src: "./cover.png"
   alt: "Libly: sistema de carnet digital. Logo de Libly."
 tags: ["libly", "proyecto tecnológico", "react native", "go", "educación"]
+ogImage: "./cover.png"
 ---
 
 # Libly: sistema de carnet digital
