@@ -2,6 +2,7 @@
 title: "No, tu teléfono no te escucha 📱"
 publishDate: "14 Feb 2022"
 description: "Seguramente, alguna vez te pasó que estabas hablando con un familiar sobre algún producto en específico y después te aparecieron anuncios..."
+ogImage: "./cover.png"
 coverImage:
   src: "./cover.jpg"
   alt: "Fotografía de silueta de hombre tomada por Chris Yang (@chrisyangchrisfilm)"

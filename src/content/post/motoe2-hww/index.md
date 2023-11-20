@@ -5,6 +5,7 @@ description: "Hace rato que vengo pensando en la posiblidad de utilizar un Moto 
 coverImage:
   src: "./cover.png"
   alt: "Moto E2 y Ledger Nano S"
+ogImage: "./cover.png"
 tags: ["hardware wallet", "cold wallet", "airgap vault", "diy", "moto e2"]
 ---
 
